@@ -43,6 +43,11 @@ public class Staff {
     public void setEmployeeID(int employeeID) {
         this.employeeID = employeeID;
     }
+
+    @Override  // add this method to get back the inf instead of getting back just the memory address.
+    public String toString() {
+        return "Staff{" + "name=" + name + ", position=" + position + ", employeeID=" + employeeID + '}';
+    }
    
     
 }

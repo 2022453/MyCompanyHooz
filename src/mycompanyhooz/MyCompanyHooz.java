@@ -15,6 +15,22 @@ public class MyCompanyHooz {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        
+        Staff Staff1 = new Staff("Paulo", "Owner", 01);
+        Staff Staff2 = new Staff("Bruno", "Owner", 02);
+                    
+        
+        System.out.println(Staff1);
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
     
 }
