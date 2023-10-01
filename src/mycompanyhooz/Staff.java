@@ -10,5 +10,15 @@ package mycompanyhooz;
  */
 public class Staff {
     
+    private String name;
+    private String position;
+    private int employeeID;
+
+    public Staff(String name, String position, int employeeID) {
+        this.name = name;
+        this.position = position;
+        this.employeeID = employeeID;
+    }
+    
     
 }
